@@ -9,9 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfa89cd1-cff7-4f3a-9fc3-c3da26fecba0" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\AndroidStudioProjects\NetListener\app\src\main\java\com\kermit\netlistener\model\bean\haha.java" afterPath="" />
-    </list>
+    <list default="true" id="dfa89cd1-cff7-4f3a-9fc3-c3da26fecba0" name="Default" comment="" />
     <ignored path="NetListener.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
