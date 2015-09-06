@@ -1821,10 +1821,9 @@ public abstract class NanoHTTPD {
 
     /**
      * Create a text response with known length.
-     * 修改了MIME类型
      */
     public Response newFixedLengthResponse(String msg) {
-        return newFixedLengthResponse(Response.Status.OK, "text/xml", msg);
+        return newFixedLengthResponse(Response.Status.OK, "text/html", msg);
     }
 
     /**

@@ -37,12 +37,14 @@ public class webServer extends NanoHTTPD {
 
             File root = Environment.getExternalStorageDirectory();
             FileReader index = new FileReader(root.getAbsolutePath() +
-                    "/listener/phoneinfo.xml");
+                    "/listener2/phoneinfo.html");
             BufferedReader reader = new BufferedReader(index);
             String line = "";
+
             while ((line = reader.readLine()) != null) {
                 answer += line;
             }
+
             reader.close();
 
         } catch(IOException ioe) {

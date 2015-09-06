@@ -50,14 +50,23 @@ public class RenderSnakeHtml {
         stringBuilder
                 .append("<html>")
                 .append("<head>")
+                .append("<meta charset = ")
+                        //html输出的时候必须也要加一个utf-8
+                .append("\"UTF-8\">")
                 .append("<title>")
                 .append("phoneinfo")
                 .append("</title>")
                 .append("</head>")
                 .append("<body>")
+                        //.append("<font size = 6>")
+                .append("<h1 align = \"center\">")
                 .append(networkInfo)
+                        //.append("</font>")
+                .append("</h1>")
                 .append("<br>")
+                .append("<h1 align = \"center\">")
                 .append(batteryInfo)
+                .append("</h1>")
                 .append("</body>")
                 .append("</html>");
 
